@@ -1,5 +1,4 @@
 /* Definiciones de reglas globales */
-
 :root {
   --light-color: #ffffff;
   --light-gray-color: #cacaca;
@@ -10,4 +9,30 @@
   --transition: 350ms;
   --light-shadows: #00000038;
   --heavy-shadows: #00000078;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+#body {
+  font-family: 'K2D';
+  background-image: url(../../public/assets/img/ui/main-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--dark-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;
 }

@@ -1,9 +1,9 @@
-import PublicPortfolio from "./pages/PublicPortfolio";
+import Portfolio from "./pages/Portfolio";
 
 export default function Home() {
   return (
     <main className="main">
-      <PublicPortfolio></PublicPortfolio>
+      <Portfolio></Portfolio>
     </main>
   );
 }
